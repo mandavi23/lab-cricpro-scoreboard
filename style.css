@@ -1,13 +1,298 @@
-/* Type your code here */
+*{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding: 0px;
+}
+body{
+	background-image: url("assets/background-image1.png");
+	margin: 0px;
+	padding:0px;
+	background-size: cover;
 
+}
+	
+.logo{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 50px;
+	padding-right: 80px;
+}
+.heading{
+	width:50%;
+	height: 50px;
+	font-size: 46px;
+	display: flex;
+	font-weight: bold;
+	text-shadow:2px 5px 5px;
+	padding-left: 80px;
+	align-items: flex-end;
+}
+.sub-heading{
+	color: gray;
+	padding-left: 80px;
+	width:50%;
+	font-size: 30px;
+}
+/*scorecard table*/
+.container{
+	margin-left: 80px;
+	display: grid;
+	width: 1200px;
+	height: 500px;
+	background:lightgray;
+	grid-gap: 2px;
+	justify-content: center;
+}
+.heading1{
+	background: tomato;
+	display: grid;
+	grid-template-columns: 7fr 1fr;
+	grid-template-rows: none;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+}
+.heading1>div{
+	font-size: 18px;
+	padding: 8px;
+}
+.score{
+	background: white;
+	display: grid;
+	grid-template-columns: 9fr 8fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: none;
+	border-radius: 5px;
+	justify-content: center;
+	align-items: center;
+}
+.score>div{
+	font-size: 18px;
+	padding: 8px;
+}
 
+.score1{
+	background: white;
+	display: grid;
+	grid-template-columns: 10fr 8fr 1fr 1fr 1fr 1fr 1fr ;
+	grid-template-rows: none;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+.score1>div:first-child{
+	font-size: 18px;
+	padding: 8px;
+	color: blue;
+}
+.score1>div:last-child{
+	padding: 8px;
+}
+.score1>div:nth-child(2){
+	color: grey;
+	
+}
+/*popup*/
+.score1 .image{
+	visibility: hidden;
+	position: absolute;
+	z-index: 1;
+}
+.score1:hover .image{
+	visibility: visible;
+}
+.score2{
+	background: white;
+	display: grid;
+	grid-template-columns: 10fr 8fr 1fr 1fr 1fr 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+/*popup*/
+.score2 .image{
+	visibility: hidden;
+	position: absolute;
+	z-index: 1;
+}
+.score2:hover .image{
+	visibility: visible;
+}
+.score2>div:first-child{
+	font-size: 18px;
+	padding: 8px;
+	color: blue;
+}
+.score2>div:last-child{
+	padding: 8px;
+}
+.score2>div:nth-child(2){
+	color: grey;
+	
+}
+.score3{
+	background: white;
+	display: grid;
+	grid-template-columns: 10fr 8fr 1fr 1fr 1fr 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+/*popup*/
+.score3 .image{
+	visibility: hidden;
+	position: absolute;
+	z-index: 1;
+}
+.score3:hover .image{
+	visibility: visible;
+}
+.score3>div:first-child{
+	font-size: 18px;
+	padding: 8px;
+	color: blue;
+}
+.score3>div:nth-child(2){
+	color: grey;
+	
+}
+.score3>div:last-child{
+	padding: 8px;
+}
+.score4{
+	background: white;
+	display: grid;
+	grid-template-columns: 10fr 8fr 1fr 1fr 1fr 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+/*popup*/
+.score4 .image{
+	visibility: hidden;
+	position: absolute;
+	z-index: 1;
+}
+.score4:hover .image{
+	visibility: visible;
+}
+.score4>div:first-child{
+	font-size: 18px;
+	padding: 8px;
+	color: blue;
+}
+.score4>div:nth-child(2){
+	color: grey;
+	
+}
+.score4>div:last-child{
+	padding: 8px;
+}
+.score5{
+	background: white;
+	display: grid;
+	grid-template-columns: 11fr 8fr 1fr 1fr 1fr 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+/*popup*/
+.score5 .image{
+	visibility: hidden;
+	position: absolute;
+	z-index: 1;
+}
+.score5:hover .image{
+	visibility: visible;
+}
+.score5>div:nth-child(2){
+	color: grey;
+	
+}
+.score5>div:first-child{
+	font-size: 18px;
+	padding: 8px;
+	color: blue;
+}
+.score5>div:last-child{
+	padding: 8px;
+}
+.score6{
+	background: white;
+	display: grid;
+	grid-template-columns: 11fr 8fr 1fr 1fr 1fr 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+/*popup*/
+.score6 .image{
+	visibility: hidden;
+	position: absolute;
+	z-index: 1;
+}
+.score6:hover .image{
+	visibility: visible;
+}
+.score6>div:nth-child(2){
+	color: grey;
+	
+}
+.score6>div:first-child{
+	font-size: 18px;
+	padding: 8px;
+	color: blue;
+}
+.score6>div:last-child{
+	padding: 8px;
+}
+.extras{
+	background: white;
+	display: grid;
+	grid-template-columns: 7fr 2fr;
+	border-radius: 5px;
+}
+.extras>div:first-child{
+	font-size: 18px;
+	padding: 8px;
+}
+.total{
+	background: white;
+	display: grid;
+	grid-template-columns: 7fr 2fr;
+	border-radius: 5px;
+}
+.total>div:first-child{
+	font-size: 18px;
+	padding: 8px;
+}
+.bat{
+	background: white;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	border-radius: 5px;
+}
+.bat>div:first-child{
+	font-size: 18px;
+	padding: 8px;
+}
+/*popup*/
+.bat .image{
+	visibility: hidden;
+	position: absolute;
+	z-index: 1;
+}
+.bat:hover .image{
+	visibility: visible;
+}
+.bat>div:nth-child(2){
+	color:blue;
+}
 /* change the font family and spacing as per your project font */
 .footer{
     display:flex;
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
+	top: 20px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
